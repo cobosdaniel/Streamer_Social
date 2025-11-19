@@ -1,0 +1,26 @@
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;   /* FULL SCREEN HEIGHT */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* DARK MODE */
+.app-dark {
+  background-color: #050816;
+  color: #f9fafb;
+}
+
+/* LIGHT MODE */
+.app-light {
+  background-color: #f9fafb;
+  color: #111827;
+}
